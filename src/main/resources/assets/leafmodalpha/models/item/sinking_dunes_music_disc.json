@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "leafmodalpha:item/sinking_dunes_music_disc"
+  }
+}

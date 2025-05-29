@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ODO",
+    "AVA",
+    "ONO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "V": {
+      "item": "leafmodalpha:void_catalyst"
+    }
+  },
+  "result": {
+    "id": "leafmodalpha:null_music_disc",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item.leafmodalpha.ruby": "Ruby",
+  "item.leafmodalpha.ruby_sword": "Ruby Sword",
+  "item.leafmodalpha.void": "Void",
+  "item.leafmodalpha.void_catalyst": "Void Catalyst",
+  "item.leafmodalpha.charged_void_catalyst": "Charged Void Catalyst",
+  "item.leafmodalpha.shattered_void_catalyst": "Shattered Void Catalyst",
+
+  "item.leafmodalpha.null_music_disc": "Null Music Disc",
+  "item.leafmodalpha.null_music_disc.desc": "Femgoob - Null (CC-BY)",
+  "item.leafmodalpha.sinking_dunes_music_disc": "Sinking Dunes Music Disc",
+  "item.leafmodalpha.sinking_dunes_music_disc.desc": "Catamu Prime - Sinking Dunes (CC-BY)",
+
+  "block.leafmodalpha.void_ore": "Void Ore",
+
+  "itemgroup.leafmodalpha.leafmodalpha_items": "Leaf Mod Alpha"
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.leafmodalpha.sinking_dunes_music_disc.desc"
+  },
+  "length_in_seconds": 38,
+  "sound_event": "leafmodalpha:sinking_dunes"
+}

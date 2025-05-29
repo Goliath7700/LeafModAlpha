@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "leafmodalpha",
+	"version": "${version}",
+	"name": "LeafModAlpha",
+	"description": "A mod where I mess around",
+	"authors": [
+		"Goli7700",
+		"Cowical_",
+		"gummy1212"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC-BY-4.0",
+	"icon": "assets/leafmodalpha/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.goli7700.LeafModAlpha"
+		],
+		"fabric-datagen": [
+			"me.goli7700.LeafModAlphaDataGenerator"
+		],
+		"client": [
+			"me.goli7700.LeafModAlphaClient"
+		]
+	},
+	"mixins": [
+		"leafmodalpha.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
