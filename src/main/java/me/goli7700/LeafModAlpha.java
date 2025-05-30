@@ -3,6 +3,7 @@ package me.goli7700;
 import me.goli7700.block.ModBlocks;
 import me.goli7700.item.ModItemGroups;
 import me.goli7700.item.ModItems;
+import me.goli7700.particle.ModParticles;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,5 +23,6 @@ public class LeafModAlpha implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModParticles.registerModParticles();
 	}
 }
