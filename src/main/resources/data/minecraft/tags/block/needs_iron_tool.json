@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "leafmodalpha:ruby_ore",
-    "leafmodalpha:deepslate_ruby_ore",
-    "leafmodalpha:void_ore"
+    "leafmodalpha:deepslate_ruby_ore"
   ]
 }

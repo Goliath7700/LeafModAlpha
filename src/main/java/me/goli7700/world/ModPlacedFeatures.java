@@ -18,6 +18,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
 
+    public static final RegistryKey<PlacedFeature> RUBY_ORE_PLACED_KEY = registerKey("ruby_ore_placed");
     public static final RegistryKey<PlacedFeature> VOID_ORE_PLACED_KEY = registerKey("void_ore_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
@@ -27,6 +28,10 @@ public class ModPlacedFeatures {
                  ModOrePlacement.modifiersWithCount(5,
                          HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80)))
                 );
+        register(context, RUBY_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_RUBY_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(10,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(50)))
+        );
 
     }
 

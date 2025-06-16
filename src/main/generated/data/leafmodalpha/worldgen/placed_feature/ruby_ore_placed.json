@@ -1,9 +1,9 @@
 {
-  "feature": "leafmodalpha:end_void_ore",
+  "feature": "leafmodalpha:overworld_ruby_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 5
+      "count": 10
     },
     {
       "type": "minecraft:in_square"
@@ -13,7 +13,7 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 80
+          "absolute": 50
         },
         "min_inclusive": {
           "absolute": -80

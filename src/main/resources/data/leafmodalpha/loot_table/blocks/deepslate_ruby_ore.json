@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "leafmodalpha:void_ore"
+              "name": "leafmodalpha:deepslate_ruby_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,18 +40,12 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "leafmodalpha:void"
+              "name": "leafmodalpha:ruby"
             }
-          ],
-          "conditions": []
+          ]
         }
       ],
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "rolls": 1
     }
   ]
 }

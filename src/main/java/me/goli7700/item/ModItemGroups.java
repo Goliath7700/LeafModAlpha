@@ -17,11 +17,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))
                     .displayName(Text.translatable("itemgroup.leafmodalpha.leafmodalpha_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.VOID_ORE);
                         entries.add(ModItems.CORRUPT_CROWN);
                         entries.add(ModItems.LONGBOW);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RUBY_SWORD);
-                        entries.add(ModBlocks.VOID_ORE);
                         entries.add(ModItems.VOID);
                         entries.add(ModItems.VOID_CATALYST);
                         entries.add(ModItems.SHATTERED_VOID_CATALYST);

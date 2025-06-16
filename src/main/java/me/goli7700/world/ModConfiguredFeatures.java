@@ -21,7 +21,8 @@ import java.util.List;
 public class ModConfiguredFeatures {
     // ConfiguredFeat -> PlacedFeat -> WorldGen
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> END_VOID_ORE_KEY = registryKey("void_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> OVERWORLD_RUBY_ORE_KEY = registryKey("overworld_ruby_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> END_VOID_ORE_KEY = registryKey("end_void_ore");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
 
@@ -30,10 +31,14 @@ public class ModConfiguredFeatures {
         RuleTest netherReplaceables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
         RuleTest endReplaceables = new BlockMatchRuleTest(Blocks.END_STONE);
 
-        List<OreFeatureConfig.Target> endVoidOre =
+        List<OreFeatureConfig.Target> endVoidOres =
                 List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.VOID_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldRubyOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RUBY_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_RUBY_ORE.getDefaultState()));
 
-        register(context, END_VOID_ORE_KEY, Feature.ORE, new OreFeatureConfig(endVoidOre, 4));
+        register(context, END_VOID_ORE_KEY, Feature.ORE, new OreFeatureConfig(endVoidOres, 4));
+        register(context, OVERWORLD_RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 8));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {

@@ -1,3 +1,5 @@
-// 1.21.1	2025-06-15T22:20:52.583346	LeafModAlpha/
-de64599809c5b3e7fbbfe6907224735d777a72e5 data\leafmodalpha\worldgen\configured_feature\void_ore.json
-ce266ded3b69bd7c196b19043107aff7c1206c53 data\leafmodalpha\worldgen\placed_feature\void_ore_placed.json
+// 1.21.1	2025-06-16T14:29:19.6363672	LeafModAlpha/
+26926af75fc687fb6467cac152ef4644eb8ae4e9 data\leafmodalpha\worldgen\configured_feature\overworld_ruby_ore.json
+9d8e878f1b4b14fe392a7585ec264fec8ea258d2 data\leafmodalpha\worldgen\configured_feature\end_void_ore.json
+41ccffa1eb0ddea5b6c4ab0d37a411171788abfc data\leafmodalpha\worldgen\placed_feature\void_ore_placed.json
+5e379904d3506b1e0f365cdc1f1adb86fa61c6bc data\leafmodalpha\worldgen\placed_feature\ruby_ore_placed.json

@@ -15,8 +15,14 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block VOID_ORE = registerBlock("void_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(5, 10),
+            new ExperienceDroppingBlock(UniformIntProvider.create(10, 15),
                     AbstractBlock.Settings.create().requiresTool().strength(30.0F, 1200.0F).sounds(BlockSoundGroup.AMETHYST_CLUSTER)));
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7),
+                    AbstractBlock.Settings.create().requiresTool().strength(3F, 3.0F).sounds(BlockSoundGroup.STONE)));
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7),
+                    AbstractBlock.Settings.create().requiresTool().strength(4.5F,3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
