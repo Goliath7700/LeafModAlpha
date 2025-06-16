@@ -1,0 +1,6 @@
+{
+  "parent": "leafmodalpha:item/longbow",
+  "textures": {
+    "layer0": "leafmodalpha:item/longbow_pulling_0"
+  }
+}

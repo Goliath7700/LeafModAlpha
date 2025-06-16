@@ -16,6 +16,9 @@ public class ModSounds {
     public static final SoundEvent SINKING_DUNES = registerSoundEvent("sinking_dunes");
     public static final RegistryKey<JukeboxSong> SINKING_DUNES_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(LeafModAlpha.MOD_ID, "sinking_dunes"));
+    public static final SoundEvent GAME_OVER = registerSoundEvent("game_over");
+    public static final RegistryKey<JukeboxSong> GAME_OVER_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(LeafModAlpha.MOD_ID, "game_over"));
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(LeafModAlpha.MOD_ID, name);

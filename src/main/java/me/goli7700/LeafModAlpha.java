@@ -1,9 +1,13 @@
 package me.goli7700;
 
 import me.goli7700.block.ModBlocks;
+import me.goli7700.datagen.ModRegistryDataGenerator;
+import me.goli7700.item.ModArmorMaterials;
 import me.goli7700.item.ModItemGroups;
 import me.goli7700.item.ModItems;
 import me.goli7700.particle.ModParticles;
+import me.goli7700.utility.ModModelPredicates;
+import me.goli7700.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -24,5 +28,7 @@ public class LeafModAlpha implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModParticles.registerModParticles();
+		ModModelPredicates.registerModelPredicates();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

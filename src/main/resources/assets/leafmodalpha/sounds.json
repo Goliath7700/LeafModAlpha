@@ -14,5 +14,13 @@
         "stream": true
       }
     ]
+  },
+  "game_over": {
+    "sounds": [
+      {
+        "name": "leafmodalpha:game_over",
+        "stream": true
+      }
+    ]
   }
 }

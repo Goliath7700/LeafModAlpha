@@ -1,4 +1,6 @@
 {
+  "item.leafmodalpha.corrupt_crown": "Corrupt Crown",
+  "item.leafmodalpha.longbow": "Longbow",
   "item.leafmodalpha.ruby": "Ruby",
   "item.leafmodalpha.ruby_sword": "Ruby Sword",
   "item.leafmodalpha.void": "Void",
@@ -10,8 +12,15 @@
   "item.leafmodalpha.null_music_disc.desc": "Femgoob - Null (CC-BY)",
   "item.leafmodalpha.sinking_dunes_music_disc": "Sinking Dunes Music Disc",
   "item.leafmodalpha.sinking_dunes_music_disc.desc": "Catamu Prime - Sinking Dunes (CC-BY)",
+  "item.leafmodalpha.game_over_music_disc": "Game Over Music Disc",
+  "item.leafmodalpha.game_over_music_disc.desc": "Femgoob - Game Over (CC-BY)",
 
   "block.leafmodalpha.void_ore": "Void Ore",
+
+  "painting.leafmodalpha.times_gamblers_didnt_win_big.title": "Times Gamblers Didn't Win Big",
+  "painting.leafmodalpha.times_gamblers_didnt_win_big.author": "Femgoob",
+  "painting.leafmodalpha.mona_lisa.title": "Mona Lisa",
+  "painting.leafmodalpha.mona_lisa.author": "Leonardo Davinci",
 
   "itemgroup.leafmodalpha.leafmodalpha_items": "Leaf Mod Alpha"
 }

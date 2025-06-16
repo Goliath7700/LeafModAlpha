@@ -17,15 +17,18 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))
                     .displayName(Text.translatable("itemgroup.leafmodalpha.leafmodalpha_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CORRUPT_CROWN);
+                        entries.add(ModItems.LONGBOW);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModBlocks.VOID_ORE);
                         entries.add(ModItems.VOID);
                         entries.add(ModItems.VOID_CATALYST);
                         entries.add(ModItems.SHATTERED_VOID_CATALYST);
                         entries.add(ModItems.CHARGED_VOID_CATALYST);
                         entries.add(ModItems.NULL_MUSIC_DISC);
                         entries.add(ModItems.SINKING_DUNES_MUSIC_DISC);
-                        entries.add(ModBlocks.VOID_ORE);
+                        entries.add(ModItems.GAME_OVER_MUSIC_DISC);
                     }).build());
 
     public static void registerItemGroups() {
