@@ -1,5 +1,6 @@
 {
   "item.leafmodalpha.corrupt_crown": "Corrupt Crown",
+  "item.leafmodalpha.hardened_leather": "Hardened Leather",
   "item.leafmodalpha.longbow": "Longbow",
   "item.leafmodalpha.ruby": "Ruby",
   "item.leafmodalpha.ruby_sword": "Ruby Sword",
@@ -19,10 +20,17 @@
   "block.leafmodalpha.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.leafmodalpha.void_ore": "Void Ore",
 
+  "enchantment.leafmodalpha.lightning_striker": "Lightning Striker",
+
   "painting.leafmodalpha.times_gamblers_didnt_win_big.title": "Times Gamblers Didn't Win Big",
   "painting.leafmodalpha.times_gamblers_didnt_win_big.author": "Femgoob",
   "painting.leafmodalpha.mona_lisa.title": "Mona Lisa",
   "painting.leafmodalpha.mona_lisa.author": "Leonardo Davinci",
+
+  "tooltip.leafmodalpha.void.tooltip": "Nihilo",
+  "tooltip.leafmodalpha.void_catalyst.tooltip": "Creatio Ex Nihilo",
+  "tooltip.leafmodalpha.shattered_void_catalyst.tooltip": "Machina Destructa Est",
+  "tooltip.leafmodalpha.charged_void_catalyst.tooltip": "Deus Ex Machina",
 
   "itemgroup.leafmodalpha.leafmodalpha_items": "Leaf Mod Alpha"
 }

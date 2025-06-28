@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "H": {
+      "item": "leafmodalpha:hardened_leather"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    }
+  },
+  "pattern": [
+    " D",
+    "HB",
+    " D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "leafmodalpha:longbow"
+  },
+  "show_notification": true
+}

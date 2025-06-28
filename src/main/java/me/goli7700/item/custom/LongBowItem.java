@@ -58,7 +58,7 @@ public class LongBowItem extends RangedWeaponItem {
 
     @Override
     protected void shoot(LivingEntity shooter, ProjectileEntity projectile, int index, float speed, float divergence, float yaw, @Nullable LivingEntity target) {
-        projectile.setVelocity(shooter, shooter.getPitch(), shooter.getYaw() + yaw, 0.0F, speed, divergence);
+        projectile.setVelocity(shooter, shooter.getPitch(), shooter.getYaw() + yaw, 0.0F, speed * 1.6F, divergence);
     }
 
     public static float getPullProgress(int useTicks) {

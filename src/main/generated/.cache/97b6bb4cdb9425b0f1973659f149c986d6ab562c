@@ -1,5 +1,6 @@
-// 1.21.1	2025-06-16T14:29:19.6363672	LeafModAlpha/
+// 1.21.1	2025-06-17T23:08:02.8050213	LeafModAlpha/
 26926af75fc687fb6467cac152ef4644eb8ae4e9 data\leafmodalpha\worldgen\configured_feature\overworld_ruby_ore.json
 9d8e878f1b4b14fe392a7585ec264fec8ea258d2 data\leafmodalpha\worldgen\configured_feature\end_void_ore.json
 41ccffa1eb0ddea5b6c4ab0d37a411171788abfc data\leafmodalpha\worldgen\placed_feature\void_ore_placed.json
 5e379904d3506b1e0f365cdc1f1adb86fa61c6bc data\leafmodalpha\worldgen\placed_feature\ruby_ore_placed.json
+1bfea2a6b773c56109c5e1305a2d0f5e197f7b77 data\leafmodalpha\enchantment\lightning_striker.json

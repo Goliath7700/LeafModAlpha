@@ -1,6 +1,7 @@
 package me.goli7700;
 
 import me.goli7700.datagen.ModRegistryDataGenerator;
+import me.goli7700.enchantment.ModEnchantments;
 import me.goli7700.world.ModConfiguredFeatures;
 import me.goli7700.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -29,5 +30,6 @@ public class LeafModAlphaDataGenerator implements DataGeneratorEntrypoint {
 
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
 	}
 }
